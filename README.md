@@ -7,5 +7,6 @@ Using 28 traces from SPEC CPU 2006, https://www.spec.org/cpu2006/Docs/readme1st.
 Example of running the program:
 Compiling in terminal: g++ cache.cpp -o cache
 Running program using PERL's benchmark trace: gzip -dc 400.perlbench-41B.trace.txt.gz | ./cache 128 16 64 r
+
 Output: 234 0.0234% 212 0.0238583% 22 0.0197448% 
 
